@@ -1,5 +1,6 @@
 programa
 {
+	/* Sorteia numeros dentro de uma matriz 4x4 e soma as colunas */
 	inclua biblioteca Util --> u
 	funcao inicio()
 	{
@@ -43,9 +44,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 677; 
+ * @POSICAO-CURSOR = 76; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {matriz, 7, 10, 6}-{somaColuna, 8, 10, 10}-{l, 9, 15, 1}-{l, 16, 15, 1};
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 8, 10, 6}-{somaColuna, 9, 10, 10}-{l, 10, 15, 1}-{l, 17, 15, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -1,6 +1,7 @@
 /* Hands-on Questão 3 */
 programa
 {
+	/*Trabalhando com funções, colocando o texto pra repetir quantas vezes o usuário deseja*/
 	inclua biblioteca Tipos --> t
 	funcao Gerador(cadeia input, inteiro repetir){
 		
@@ -36,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 66; 
+ * @POSICAO-CURSOR = 124; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

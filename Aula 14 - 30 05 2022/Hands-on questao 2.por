@@ -1,6 +1,7 @@
 /* Hands-on Questão 2 */
 programa
 {
+	/* Usando parametros dinamicos */
 	funcao Gerador(cadeia input){
 		
 		escreva("+-----+====+====+-----+")
@@ -21,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 70; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,8 +1,10 @@
 programa
 {
+	/*Sorteia numeros numa matriz 4x4 e faz o somatório das linhas*/
 	inclua biblioteca Util --> u
 	funcao inicio()
 	{
+		
 		// Uma matriz 4x4 que some as linha, numeros 1 a 50 (sort)
 		inteiro matriz[4][4]
 		inteiro somaLinha = 0
@@ -32,9 +34,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 767; 
+ * @POSICAO-CURSOR = 76; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {matriz, 7, 10, 6};
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 8, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

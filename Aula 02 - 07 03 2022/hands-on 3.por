@@ -1,15 +1,15 @@
-/* Hands-on Questão 1 */
 programa
 {
-	/* Passando parametro pela função para apresentar o texto abaixo */
-	funcao Gerador(){
-		escreva("+-----+====+====+-----+")
-		escreva("\nEu consegui programar")
-		escreva("\n+-----+====+====+-----+")		
-	}
+	/* Calcula média de duas notas colocadas */
 	funcao inicio()
 	{
-		Gerador()
+		real n1, n2, media
+		escreva("Digite a primeira nota > ")
+		leia(n1)		
+		escreva("Digite a segunda nota > ")
+		leia(n2)
+		media = (n1+n2)/2
+		escreva("\n\nA média é: ",media)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 104; 
+ * @POSICAO-CURSOR = 238; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

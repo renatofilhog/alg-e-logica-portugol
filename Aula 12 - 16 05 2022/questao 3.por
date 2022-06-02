@@ -1,6 +1,7 @@
 programa
 {
 	inclua biblioteca Util --> u
+	/* Uma matriz onde irá ser preenchido os numeros na matriz, e depois somará linha, coluna e fará a média */
 	funcao inicio()
 	{
 		// Uma matriz 4x4 que some as linha, numeros 1 a 50 (sort)
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 918; 
+ * @POSICAO-CURSOR = 149; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

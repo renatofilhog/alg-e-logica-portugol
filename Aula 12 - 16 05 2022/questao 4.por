@@ -1,15 +1,16 @@
-/* Hands-on Questão 1 */
 programa
 {
-	/* Passando parametro pela função para apresentar o texto abaixo */
-	funcao Gerador(){
-		escreva("+-----+====+====+-----+")
-		escreva("\nEu consegui programar")
-		escreva("\n+-----+====+====+-----+")		
-	}
+	/*Faz uma contagem regressiva do numero 30 até 0. Colocando [] entre
+	numeros diviseis por quatro*/
 	funcao inicio()
 	{
-		Gerador()
+		escreva("Contagem regressiva\n")
+		para(inteiro num = 30;num >= 0 e num%4!=0; num--){
+			para(inteiro num1 = 30; num1>=30 e num1%4==0;num1--){
+				escreva("[",num1,"]")
+			}
+			escreva(num,",")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 104; 
+ * @POSICAO-CURSOR = 109; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

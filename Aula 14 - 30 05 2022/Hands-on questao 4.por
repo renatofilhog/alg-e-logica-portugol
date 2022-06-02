@@ -2,6 +2,9 @@
 
 programa
 {
+	/* Trabalhando com funções, uma passada de parametro por dentro da função para 
+	 *  para mostrar na tela bordas e o texto que deseja colocar
+	 */
 	inclua biblioteca Tipos --> t
 	funcao Gerador(cadeia input, inteiro repetir, inteiro borda){
 		
@@ -64,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 293; 
+ * @POSICAO-CURSOR = 179; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
